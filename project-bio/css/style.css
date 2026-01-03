@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+body {
+	font-family: "Barlow", sans-serif;
+}
+
+.bio_wrapper {
+	padding: 80px 0;
+}
+
+.bio_wrapper figure {
+	margin: 0;
+}
+
+.bio_wrapper figure img {
+	border-radius: 15px;
+}
+
+.bio_wrapper .bio_wrap h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.bio_wrapper .bio_wrap p {
+	font-size: 18px;
+	color: #000000;
+}
+
+.bio_wrapper .bio_wrap ul {
+	list-style: none;
+}
+
+.bio_wrapper .bio_wrap ul li {
+	display: inline-block;
+}
+
+.bio_wrapper .bio_wrap ul li a {
+    width: 45px;
+    height: 45px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #1988e9;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    transition: 0.4s all ease-in-out;
+}
+
+.bio_wrapper .bio_wrap ul li a:hover {
+	background: #1988e9;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.bio_wrapper .bio_wrap .border_para {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #000000;
+}
+
+.bio_wrapper .bio_wrap h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.bio_wrapper .bio_wrap h3 i {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.bio_wrapper .bio_wrap h3 a {
+	color: #000000;
+}
+
+.mt_25 {
+	margin-top: 25px;
+}
+
+.bio_wrapper .bio_wrap {
+	margin-left: 20px;
+}
+
+.container {
+	max-width: 1200px !important;
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (max-width: 1399px){
+	
+}
+@media (min-width: 1400px) { 
+	
+}
+@media (min-width: 1200px) {
+
+}
+
+@media (max-width: 1199px) { 
+
+}
+
+@media (max-width: 991px) {
+
+	.bio_wrapper figure {
+		margin-bottom: 40px;
+	}
+
+	.bio_wrapper .bio_wrap {
+		margin-left: 0 !important;
+	}
+
+}
+
+/*Medium devices (tablets, 767px and down)*/
+@media (max-width: 767px) {
+		
+}
+
+/*Small devices (landscape phones, 575px and down)*/
+@media (max-width: 575px) {
+
+}
